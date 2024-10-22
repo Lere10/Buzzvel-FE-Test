@@ -7,10 +7,12 @@
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
   font-size: 32px;
+  margin: 0px;
+  padding-right: 38px;
 }
 .nav__links {
   display: flex;
-  column-gap: 20px;
+  column-gap: 16px;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -20,7 +22,52 @@
   color: #000000;
   text-decoration: none;
   font-weight: bold;
+  padding: 12px 8px;
 }
 .nav__link:hover {
-  color: #2f80ed;
+  color: #0369a1;
+  cursor: pointer;
+}
+.nav__ctas {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 16px;
+  /* max-width: 489px; */
+}
+.nav__phone {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 8px;
+  margin: 0px;
+}
+.nav__phone-icon {
+  width: 100%;
+  max-width: 24px;
+}
+.nav__phone-number {
+  margin: 0px;
+  padding: 0px 16px;
+  align-self: center;
+  color: #0369a1;
+  font-weight: medium;
+  font-size: 16px;
+}
+.nav__button {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: #581c87;
+  padding: 20px 24px;
+  background-color: rgba(0, 0, 0, 0);
+  border: #581c87, solid, 2px;
+  border-radius: 50px;
+}
+.nav__button-text {
+  padding: 0px 24px;
+  margin: 0px;
+}
+.nav__button-arrow {
+  margin: 0px;
+  padding: 0px;
 }

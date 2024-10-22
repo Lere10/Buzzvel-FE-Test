@@ -29,11 +29,24 @@
               </li>
             </ul>
           </nav>
-          <img
-            src="<%=require('./images/headsetIcon.svg')%>"
-            alt="Headset Icon"
-            class="header__headsetIcon"
-          />
+          <div class="nav__ctas">
+            <div class="nav__phone">
+              <img
+                src="<%=require('./images/headsetIcon.svg')%>"
+                alt="Headset Icon"
+                class="nav__phone-icon"
+              />
+              <p class="nav__phone-number">555 818 282</p>
+            </div>
+            <button class="nav__button">
+              <p class="nav__button-text">Request a Quote</p>
+              <img
+                src="<%=require('./images/arrow-rightButton.svg')%>"
+                alt="button arrow"
+                class="nav__button-arrow"
+              />
+            </button>
+          </div>
         </div>
         <h1>Get the Sun to Power Your Home</h1>
       </header>

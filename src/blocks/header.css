@@ -3,4 +3,7 @@
 .header__bar {
   display: flex;
   justify-content: space-between;
+  max-width: 1760px;
+  margin: 0 auto;
+  padding: 24px 80px;
 }

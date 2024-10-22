@@ -1,1 +1,12 @@
-
+html {
+  background-color: #fff;
+}
+.page {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+}
+.page__content {
+  max-width: 1760px;
+  margin: 0 auto;
+}
