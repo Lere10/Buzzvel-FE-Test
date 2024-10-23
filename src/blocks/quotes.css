@@ -1,0 +1,73 @@
+.quotes {
+  background-color: #581c87;
+  color: #fff;
+}
+.quotes__header {
+  display: flex;
+  margin: 30px auto 0px 80px;
+  padding: 80px 0px;
+  max-width: 89.5%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.quotes__infos {
+  max-width: 814px;
+}
+.quotes__pretitle {
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+  line-height: 22px;
+  color: #fcd34d;
+}
+.quotes__title {
+  font-size: 56px;
+  font-weight: bolder;
+  line-height: 61.6px;
+  padding: 0px;
+  margin: 8px 0px 24px;
+}
+.quotes__main-text {
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 36px;
+}
+.quotes__button {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fcd34d;
+  padding: 20px 24px;
+  background-color: rgba(0, 0, 0, 0);
+  border: #fcd34d, solid, 2px;
+  border-radius: 50px;
+}
+.quotes__button-text {
+  padding: 0px 24px;
+  margin: 0px;
+}
+.quotes__button-arrow {
+  margin: 0px;
+  padding: 0px;
+}
+.quotes__button-brownArrow {
+  display: none;
+  margin: 0px;
+  padding: 0px;
+}
+.quotes__button:hover {
+  background-color: #fcd34d;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #78350f;
+  .quotes__button-arrow {
+    display: none;
+  }
+  .quotes__button-brownArrow {
+    display: flex;
+  }
+  cursor: pointer;
+}
