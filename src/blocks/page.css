@@ -5,8 +5,9 @@ html {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 18px;
+  color: #0f172a;
 }
-.page__content {
+/* .page__content {
   max-width: 1760px;
   margin: 0 auto;
-}
+} */

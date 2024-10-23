@@ -1,0 +1,54 @@
+.pickthesun {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 80px auto;
+  position: relative;
+  max-width: 100%;
+}
+.pickthesun__text {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px;
+  max-width: 900px;
+}
+.pickthesun__pretitle {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: medium;
+  line-height: 22px;
+  color: #d97706;
+}
+.pickthesun__title {
+  margin: 8px auto 24px;
+  padding: 0px;
+  font-size: 56px;
+  font-weight: bolder;
+  line-height: 61.6px;
+}
+.pickthesun__main-text {
+  margin: 0px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 36px;
+}
+.pickthesun__main-image {
+  align-self: center;
+  max-width: 1520px;
+  width: 79%;
+  margin: 80px auto;
+  padding: 0px;
+}
+.pickthesun__purple-ellipse {
+  position: absolute;
+  top: 393px;
+  right: 0px;
+  z-index: -1;
+  overflow: scroll;
+}
+.pickthesun__orange-ellipse {
+  position: absolute;
+  top: 190px;
+  left: -208px;
+  z-index: -1;
+}
