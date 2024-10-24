@@ -11,6 +11,7 @@
 }
 .services__purplebean {
   position: absolute;
+  max-width: 29.89%;
   top: 27px;
   left: 0px;
   z-index: -1;

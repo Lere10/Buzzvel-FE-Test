@@ -22,6 +22,7 @@
   margin: 0px 0px 8px 0px;
 }
 .getthesun__title {
+  max-width: 880px;
   color: #fff;
   font-size: 56px;
   font-weight: bolder;
@@ -48,6 +49,7 @@
 .getthesun__button-text {
   padding: 0px 24px;
   margin: 0px;
+  text-wrap: nowrap;
 }
 .getthesun__button-arrow {
   margin: 0px;

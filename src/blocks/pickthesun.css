@@ -15,7 +15,7 @@
 .pickthesun__pretitle {
   margin: 0px;
   font-size: 20px;
-  font-weight: medium;
+  font-weight: normal;
   line-height: 22px;
   color: #d97706;
 }
@@ -41,6 +41,7 @@
 }
 .pickthesun__purple-ellipse {
   position: absolute;
+  max-width: 29.06%;
   top: 393px;
   right: 0px;
   z-index: -1;
@@ -48,7 +49,33 @@
 }
 .pickthesun__orange-ellipse {
   position: absolute;
+  max-width: 36.97%;
   top: 190px;
   left: -208px;
   z-index: -1;
+}
+@media screen and (max-width: 375px) {
+  .pickthesun {
+    margin: 48px auto;
+  }
+  .pickthesun__orange-ellipse {
+    max-width: 66.62%;
+    top: 235px;
+    left: -155px;
+  }
+  .pickthesun__text {
+    max-width: 343px;
+  }
+  .pickthesun__pretitle {
+    font-size: 16px;
+    line-height: 17.6px;
+  }
+  .pickthesun__title {
+    font-size: 32px;
+    line-height: 35.2px;
+  }
+  .pickthesun__main-image {
+    font-size: 16px;
+    line-height: 22px;
+  }
 }

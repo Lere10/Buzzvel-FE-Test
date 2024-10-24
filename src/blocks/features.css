@@ -11,6 +11,7 @@
 }
 .features__yellowbean {
   position: absolute;
+  max-width: 29.84%;
   top: -62px;
   right: 0px;
   z-index: -1;

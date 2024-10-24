@@ -51,6 +51,7 @@
 .quotes__button-text {
   padding: 0px 24px;
   margin: 0px;
+  text-wrap: nowrap;
 }
 .quotes__button-arrow {
   margin: 0px;

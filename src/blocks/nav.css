@@ -50,6 +50,7 @@
   color: #0369a1;
   font-weight: medium;
   font-size: 16px;
+  text-wrap: nowrap;
 }
 .nav__button {
   display: flex;
@@ -65,6 +66,7 @@
 .nav__button-text {
   padding: 0px 24px;
   margin: 0px;
+  text-wrap: nowrap;
 }
 .nav__button-arrow {
   margin: 0px;
@@ -86,4 +88,17 @@
     display: flex;
   }
   cursor: pointer;
+}
+
+@media screen and (max-width: 375px) {
+  .nav__links {
+    display: none;
+  }
+  .nav__ctas {
+    display: none;
+  }
+  .nav__logo {
+    font-size: 32px;
+    padding: 10px 16px;
+  }
 }
