@@ -1,6 +1,8 @@
 .quotes {
   background-color: #581c87;
   color: #fff;
+  width: 100%;
+  overflow: hidden;
 }
 .quotes__header {
   display: flex;
@@ -70,4 +72,117 @@
     display: flex;
   }
   cursor: pointer;
+}
+.quotes__cards {
+  overflow-x: hidden;
+  margin: 0px 0px 0px 80px;
+  /* margin: 0 auto; */
+  /* padding-bottom: 80px; */
+  /* max-width: 1760px; */
+  display: flex;
+  gap: 24px;
+  /* overflow: visible; */
+}
+
+.quotes__cardbox {
+  background-color: #fff;
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  width: 364px;
+  flex-shrink: 0;
+  min-height: 442px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+/*Classe para focar em cada card no Js */
+.quotes__cardbox_focus {
+  min-height: 490px;
+  padding: 24px 0px;
+}
+
+.quotes__cardtext {
+  margin: 0 auto;
+  color: #0f172a;
+  font-size: 18px;
+  line-height: 28.8px;
+  max-width: 300px;
+}
+.quotes__cardauthor {
+  max-width: 300px;
+  display: flex;
+  margin: 16px auto 32px;
+  justify-content: flex-start;
+  padding-top: 16px;
+}
+.quotes__cardauthor-img {
+  max-width: 64px;
+  width: 100%;
+  align-self: flex-end;
+}
+.quotes__cardauthor-infos {
+  max-width: 220px;
+  margin: 0px 0px 6px 16px;
+  align-self: flex-end;
+}
+.quotes__cardauthor-infos-name {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28.8px;
+  color: #0f172a;
+  margin: 0px;
+  padding: 0px;
+}
+.quotes__cardauthor-infos-subname {
+  font-size: 16px;
+  line-height: 22.4px;
+  color: #475569;
+  margin: 0px;
+  padding: 0px;
+}
+.quotes__buttons {
+  display: flex;
+  max-width: 120px;
+  justify-content: space-between;
+  margin: 80px 0px 80px 80px;
+}
+.quotes__arrowbutton {
+  background-color: rgba(0, 0, 0, 0);
+  border: solid, 2px, #fcd34d;
+  border-radius: 30px;
+  padding: 12px;
+  max-height: 52px;
+}
+.quotes__buttons-left,
+.quotes__buttons-right {
+  width: 100%;
+  max-width: 24px;
+}
+.quotes__buttons-left_brown,
+.quotes__buttons-right_brown {
+  display: none;
+  width: 100%;
+  max-width: 24px;
+}
+.quotes__arrowbutton-left:hover {
+  background-color: #fcd34d;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  .quotes__buttons-left {
+    display: none;
+  }
+  .quotes__buttons-left_brown {
+    display: flex;
+  }
+}
+.quotes__arrowbutton-right:hover {
+  background-color: #fcd34d;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  .quotes__buttons-right {
+    display: none;
+  }
+  .quotes__buttons-right_brown {
+    display: flex;
+  }
 }

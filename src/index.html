@@ -261,6 +261,52 @@
               />
             </button>
           </div>
+          <div class="quotes__cards">
+            <template id="template">
+              <div class="quotes__cardbox">
+                <div class="quotes__cardcontent">
+                  <p class="quotes__cardtext"></p>
+                  <div class="quotes__cardauthor">
+                    <img
+                      class="quotes__cardauthor-img"
+                      alt="card thumb avatar"
+                    />
+                    <div class="quotes__cardauthor-infos">
+                      <h4 class="quotes__cardauthor-infos-name"></h4>
+                      <p class="quotes__cardauthor-infos-subname"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </template>
+          </div>
+          <div class="quotes__buttons">
+            <button class="quotes__arrowbutton quotes__arrowbutton-left">
+              <img
+                src="<%=require('./images/arrowleft-GoldrightButton-svg.svg')%>"
+                alt="left button"
+                class="quotes__buttons-left"
+              />
+              <img
+                src="<%=require('./images/arrowleft-BrownrightButton-svg.svg')%>"
+                alt="left button"
+                class="quotes__buttons-left_brown"
+              />
+            </button>
+
+            <button class="quotes__arrowbutton quotes__arrowbutton-right">
+              <img
+                src="<%=require('./images/arrow-GoldrightButton-svg.svg')%>"
+                alt="right button"
+                class="quotes__buttons-right"
+              />
+              <img
+                src="<%=require('./images/arrow-BrownrightButton-svg.svg')%>"
+                alt="right button"
+                class="quotes__buttons-right_brown"
+              />
+            </button>
+          </div>
         </section>
       </main>
     </div>
