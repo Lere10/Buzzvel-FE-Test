@@ -89,7 +89,11 @@
   }
   cursor: pointer;
 }
-
+@media screen and (max-width: 1040px) {
+  .nav__phone {
+    display: none;
+  }
+}
 @media screen and (max-width: 375px) {
   .nav__links {
     display: none;

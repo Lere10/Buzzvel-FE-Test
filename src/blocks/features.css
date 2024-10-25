@@ -97,6 +97,29 @@
   margin: 0px;
   padding: 0px;
 }
+@media screen and (max-width: 1040px) {
+  .features__placeholderimg {
+    margin-left: 40px;
+  }
+  .features__grid {
+    margin: auto 40px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .features {
+    flex-direction: column;
+    text-align: center;
+  }
+  .features__placeholderimg {
+    max-width: 46.87%;
+    margin: 80px auto;
+    padding-left: 15px;
+  }
+  .features__yellowbean {
+    top: 750px;
+    max-width: 50%;
+  }
+}
 @media screen and (max-width: 375px) {
   .features {
     max-width: 343px;

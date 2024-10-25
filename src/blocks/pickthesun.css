@@ -35,7 +35,7 @@
 }
 .pickthesun__main-image {
   align-self: center;
-  max-width: 1520px;
+  max-width: 79.16%;
   /* width: 79%; */
   margin: 80px auto 0px;
   padding: 0px;
@@ -54,6 +54,11 @@
   top: 190px;
   left: -208px;
   z-index: -1;
+}
+@media screen and (max-width: 960px) {
+  .pickthesun {
+    margin-top: 20px;
+  }
 }
 @media screen and (max-width: 375px) {
   .pickthesun {

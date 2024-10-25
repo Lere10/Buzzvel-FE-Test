@@ -187,6 +187,17 @@
     display: flex;
   }
 }
+@media screen and (max-width: 960px) {
+  .quotes__header {
+    margin: 30px auto 0px;
+  }
+  .quotes__cards {
+    margin-left: 40px;
+  }
+  .quotes__buttons {
+    margin-left: 40px;
+  }
+}
 
 @media screen and (max-width: 375px) {
   .quotes__header {

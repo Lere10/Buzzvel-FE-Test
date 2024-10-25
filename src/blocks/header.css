@@ -112,6 +112,38 @@
     max-width: 40%;
   }
 }
+@media screen and (max-width: 1150px) {
+  .header__bar {
+    padding: 24px 50px;
+  }
+  .header__content {
+    margin: 27px 45px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .header__title {
+    font-size: 56px;
+    max-width: 500px;
+  }
+  .header__subtitle {
+    max-width: 560px;
+    font-size: 22px;
+    /* line-height: 28.4px; */
+  }
+}
+/* - - - ------Mobile--------------------------------- - - -- */
+@media screen and (max-width: 960px) {
+  .header__backgroundImage {
+    max-width: 81%;
+  }
+  .header__content {
+    padding-top: 500px;
+  }
+  .header__quote-content {
+    margin-top: 90px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .header__bar {
     padding: 0px 0px 32px 0px;
