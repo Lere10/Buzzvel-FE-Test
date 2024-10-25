@@ -92,8 +92,48 @@
     drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.07));
   margin-bottom: 80px;
 }
+.getthesun__purple-ellipse_mobile {
+  display: none;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+}
 @media screen and (max-width: 375px) {
   .getthesun {
     overflow-x: hidden;
+    background-color: #581c87;
+  }
+  .getthesun__header {
+    text-align: center;
+    max-width: 358px;
+    flex-direction: column;
+    padding: 0px;
+    margin: 48px auto 64px;
+  }
+  .getthesun__pretitle {
+    font-size: 16px;
+    line-height: 17.6px;
+  }
+  .getthesun__title {
+    font-size: 32px;
+    line-height: 35.2px;
+  }
+  .getthesun__button {
+    margin-top: 24px;
+  }
+  .getthesun__button-info {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+  .getthesun__macimg {
+    min-width: 358px;
+    margin-bottom: 48px;
+  }
+  .getthesun__purple-ellipse {
+    display: none;
+  }
+  .getthesun__purple-ellipse_mobile {
+    display: flex;
   }
 }

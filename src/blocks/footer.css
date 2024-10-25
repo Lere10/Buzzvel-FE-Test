@@ -37,6 +37,7 @@
   font-weight: 500;
 }
 .footer__navlink {
+  font-size: 16px;
   text-decoration: none;
   font-weight: normal;
   padding: 12px 0px;
@@ -44,4 +45,18 @@
 .footer__navlink:hover {
   color: #0369a1;
   cursor: pointer;
+}
+@media screen and (max-width: 375px) {
+  .footer__content {
+    flex-direction: column;
+  }
+  .footer__id {
+    flex-direction: column;
+  }
+  .footer__copyrights {
+    margin: 24px auto;
+  }
+  .footer__navlinks {
+    margin: 0 auto;
+  }
 }

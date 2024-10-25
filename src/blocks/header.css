@@ -123,16 +123,17 @@
     margin: 0 auto;
     max-width: 343px;
     padding-top: 280px;
+    text-align: center;
   }
   .header__title {
-    text-align: center;
+    /* text-align: center; */
     font-size: 40px;
     line-height: 44px;
   }
   .header__subtitle {
     font-size: 18px;
     line-height: 28.8px;
-    text-align: center;
+    /* text-align: center; */
   }
   .header__button {
     margin: 0 auto;

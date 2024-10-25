@@ -187,3 +187,56 @@
     display: flex;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .quotes__header {
+    margin: 48px auto 64px;
+    padding: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .quotes__infos {
+    max-width: 343px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .quotes__pretitle {
+    font-size: 16px;
+    line-height: 17.6px;
+    margin: 0 auto;
+  }
+  .quotes__title {
+    font-size: 32px;
+    line-height: 35.2px;
+  }
+  .quotes__button {
+    margin-top: 24px;
+  }
+  .quotes__cards {
+    margin: 0 10px;
+  }
+  .quotes__cardbox {
+    min-height: 359px;
+    max-width: 343px;
+    width: 100%;
+  }
+  .quotes__cardtext,
+  .quotes__cardauthor-infos-name {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+  .quotes__cardauthor-infos-subname {
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+  .quotes__cardauthor-img {
+    max-width: 48px;
+  }
+  .quotes__cardauthor {
+    padding-top: 18px;
+    margin-bottom: 34.5px;
+  }
+  .quotes__buttons {
+    margin: 64px auto 48px;
+  }
+}
