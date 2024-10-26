@@ -104,7 +104,13 @@
   top: 0px;
   right: 0px;
   z-index: -1;
-  /* max-width: 35.05%; */
+}
+.header__tinydot {
+  display: none;
+  position: absolute;
+  top: 290px;
+  right: 90px;
+  z-index: 1;
 }
 
 @media screen and (max-width: 1425px) {
@@ -179,6 +185,9 @@
 @media screen and (max-width: 520px) {
   .header__content {
     padding-top: 350px;
+  }
+  .header__tinydot {
+    display: flex;
   }
 }
 
