@@ -172,7 +172,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 460px) {
   .header__bar {
     padding: 0px 0px 32px 0px;
   }

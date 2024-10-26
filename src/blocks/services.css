@@ -149,7 +149,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 460px) {
   .services {
     flex-direction: column-reverse;
     overflow-x: hidden;
@@ -179,7 +179,7 @@
   }
   .services__purplebean {
     top: 700px;
-    max-width: 86.4%;
+    max-width: 70%;
   }
   .services__grid-topic-title {
     font-size: 20px;
@@ -205,5 +205,11 @@
     max-width: 260px;
     margin: 64px auto 48px;
     padding-left: 60px;
+  }
+}
+@media screen and (max-width: 375) {
+  .services__purplebean {
+    top: 700px;
+    max-width: 86.4%;
   }
 }

@@ -132,9 +132,8 @@
     max-width: 55%;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 460px) {
   .features {
-    max-width: 343px;
     flex-direction: column;
     text-align: center;
     /* overflow-x: hidden; */
@@ -183,6 +182,14 @@
     margin: 64px auto 48px;
     padding-left: 20px;
   }
+  .features__yellowbean {
+    max-width: 70.66%;
+    top: 695px;
+    right: 0px;
+  }
+}
+
+@media screen and (max-width: 375px) {
   .features__yellowbean {
     max-width: 90.66%;
     top: 695px;

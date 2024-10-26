@@ -210,8 +210,14 @@
     max-width: 90%;
   }
 }
+@media screen and (max-width: 520px) {
+  .quotes__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 460px) {
   .quotes__header {
     margin: 48px auto 64px;
     padding: 0px;
@@ -236,7 +242,7 @@
     margin-top: 24px;
   }
   .quotes__cards {
-    margin: 0 10px;
+    margin-left: 10px;
   }
   .quotes__cardbox {
     min-height: 359px;

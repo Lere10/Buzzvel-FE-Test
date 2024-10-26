@@ -46,7 +46,8 @@
   color: #0369a1;
   cursor: pointer;
 }
-@media screen and (max-width: 375px) {
+
+@media screen and (max-width: 520px) {
   .footer__content {
     flex-direction: column;
   }
@@ -60,3 +61,18 @@
     margin: 0 auto;
   }
 }
+
+/* @media screen and (max-width: 375px) {
+  .footer__content {
+    flex-direction: column;
+  }
+  .footer__id {
+    flex-direction: column;
+  }
+  .footer__copyrights {
+    margin: 24px auto;
+  }
+  .footer__navlinks {
+    margin: 0 auto;
+  }
+} */
