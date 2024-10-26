@@ -4,6 +4,7 @@ import janeThumb from "./images/cardthumb_jane.png";
 import ralphThumb from "./images/cardthumb_ralph.png";
 import courtneyThumb from "./images/cardthumb_courtney.png";
 import cameronThumb from "./images/cardthumb_cameron.png";
+import "./components/ScrollReveal.js";
 
 const cardSection = document.querySelector(".quotes__cards");
 

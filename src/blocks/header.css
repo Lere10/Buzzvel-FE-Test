@@ -1,6 +1,7 @@
 .header {
   position: relative;
   padding-bottom: 59px;
+  overflow-x: hidden;
 }
 .header__bar {
   display: flex;
@@ -10,10 +11,7 @@
   padding: 24px 80px;
 }
 .header__content {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  row-gap: 128px; */
+  visibility: hidden;
   max-width: 920px;
   margin: 27px 0px 0px 80px;
 }
@@ -69,6 +67,7 @@
   cursor: pointer;
 }
 .header__quote-content {
+  visibility: hidden;
   max-width: 600px;
   margin-top: 128px;
 }
@@ -100,6 +99,7 @@
   color: #475569;
 }
 .header__backgroundImage {
+  visibility: hidden;
   position: absolute;
   top: 0px;
   right: 0px;
@@ -164,6 +164,16 @@
 @media screen and (max-width: 720px) {
   .header__content {
     padding-top: 550px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .header__content {
+    padding-top: 470px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .header__content {
+    padding-top: 400px;
   }
 }
 @media screen and (max-width: 520px) {

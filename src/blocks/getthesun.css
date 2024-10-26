@@ -6,6 +6,7 @@
   flex-direction: column;
 }
 .getthesun__header {
+  visibility: hidden;
   display: flex;
   max-width: 1440px;
   justify-content: space-between;

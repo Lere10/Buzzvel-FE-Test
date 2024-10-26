@@ -2,8 +2,10 @@
   display: flex;
   position: relative;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 .services__placeholderimg {
+  visibility: hidden;
   max-width: 515px;
   max-height: 900px;
   width: 100%;
@@ -39,6 +41,7 @@
   justify-content: flex-end;
 }
 .services__grid-pretitle {
+  visibility: hidden;
   margin: 0px;
   padding: 0px;
   font-size: 20px;
@@ -46,6 +49,7 @@
   color: #d97706;
 }
 .services__grid-title {
+  visibility: hidden;
   font-size: 56px;
   font-weight: bolder;
   line-height: 61.6px;
@@ -53,6 +57,7 @@
   margin: 8px 0px 24px;
 }
 .services__grid-main-text {
+  visibility: hidden;
   margin: 0px;
   padding: 0px;
   font-size: 20px;
@@ -60,6 +65,7 @@
   line-height: 36px;
 }
 .services__grid-1 {
+  visibility: hidden;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -68,6 +74,7 @@
   min-height: 181px;
 }
 .services__grid-2 {
+  visibility: hidden;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -76,6 +83,7 @@
   min-height: 181px;
 }
 .services__grid-3 {
+  visibility: hidden;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -84,6 +92,7 @@
   min-height: 181px;
 }
 .services__grid-4 {
+  visibility: hidden;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
