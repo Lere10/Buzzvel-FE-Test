@@ -95,6 +95,8 @@
 .getthesun__purple-ellipse_mobile {
   display: none;
   position: absolute;
+  max-width: 55%;
+  width: 100%;
   bottom: 0px;
   left: 0px;
   z-index: -1;
@@ -115,6 +117,9 @@
   }
   .getthesun__macimg {
     max-width: 80%;
+  }
+  .getthesun__purple-ellipse_mobile {
+    display: flex;
   }
 }
 
