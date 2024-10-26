@@ -178,10 +178,10 @@ rev.reveal(".quotes__cards", {
   delay: 1000,
 });
 rev.reveal(".quotes__buttons", {
-  duration: 2000,
+  duration: 3000,
   distance: "50px",
   origin: "bottom",
-  delay: 1250,
+  delay: 1000,
 });
 
 //GETTHESUN
