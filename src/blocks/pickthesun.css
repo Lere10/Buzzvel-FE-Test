@@ -60,6 +60,13 @@
     margin-top: 20px;
   }
 }
+
+@media screen and (max-width: 890px) {
+  .pickthesun__text {
+    max-width: 90%;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .pickthesun {
     margin: 48px auto;

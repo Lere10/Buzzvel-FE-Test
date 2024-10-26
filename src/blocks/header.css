@@ -143,6 +143,34 @@
     margin-top: 90px;
   }
 }
+@media screen and (max-width: 890px) {
+  .header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 650px;
+    max-width: 92%;
+    text-align: center;
+  }
+  .header__button {
+    margin: 0 auto;
+  }
+  .header__quote-content {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .header__content {
+    padding-top: 550px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .header__content {
+    padding-top: 350px;
+  }
+}
 
 @media screen and (max-width: 375px) {
   .header__bar {

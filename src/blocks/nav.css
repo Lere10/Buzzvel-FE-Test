@@ -94,13 +94,15 @@
     display: none;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 890px) {
   .nav__links {
     display: none;
   }
   .nav__ctas {
     display: none;
   }
+}
+@media screen and (max-width: 375px) {
   .nav__logo {
     font-size: 32px;
     padding: 10px 16px;
