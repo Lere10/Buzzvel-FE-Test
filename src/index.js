@@ -4,8 +4,7 @@ import janeThumb from "./images/cardthumb_jane.png";
 import ralphThumb from "./images/cardthumb_ralph.png";
 import courtneyThumb from "./images/cardthumb_courtney.png";
 import cameronThumb from "./images/cardthumb_cameron.png";
-// import pickthesunMobileImg from "./images/pickthesun__mainimage_mobile-min.png";
-// import pickthesunDesktopImg from "./images/pickthesun__mainimage.png";
+
 import "./components/ScrollReveal.js";
 
 const cardSection = document.querySelector(".quotes__cards");
@@ -93,9 +92,3 @@ buttons.left.addEventListener("click", () => {
     cardSection.style.translate = `${-388 * cardNum}px`;
   }
 });
-
-// if (window.innerWidth <= 460) {
-//   document.querySelector(".pickthesun__main-image").src = pickthesunMobileImg;
-// } else {
-//   document.querySelector(".pickthesun__main-image").src = pickthesunDesktopImg;
-// }

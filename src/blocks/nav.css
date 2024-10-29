@@ -31,7 +31,6 @@
   display: flex;
   justify-content: space-between;
   column-gap: 16px;
-  /* max-width: 489px; */
 }
 .nav__phone {
   display: flex;

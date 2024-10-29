@@ -134,10 +134,8 @@
   .header__subtitle {
     max-width: 560px;
     font-size: 22px;
-    /* line-height: 28.4px; */
   }
 }
-/* - - - ------Mobile--------------------------------- - - -- */
 @media screen and (max-width: 960px) {
   .header__backgroundImage {
     max-width: 81%;
@@ -205,14 +203,12 @@
     text-align: center;
   }
   .header__title {
-    /* text-align: center; */
     font-size: 40px;
     line-height: 44px;
   }
   .header__subtitle {
     font-size: 18px;
     line-height: 28.8px;
-    /* text-align: center; */
   }
   .header__button {
     margin: 0 auto;

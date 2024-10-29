@@ -144,13 +144,11 @@
   .features {
     flex-direction: column;
     text-align: center;
-    /* overflow-x: hidden; */
   }
   .features__grid {
     margin: 0 auto;
     max-width: 343px;
   }
-  /* - - - - - - - - - - - - -  -- -  - - -- - */
   .features__grid-pretitle {
     font-size: 16px;
     line-height: 17.6px;
@@ -165,14 +163,12 @@
   .features__grid-main-text {
     font-size: 16px;
     line-height: 22.4px;
-    /* text-align: center; */
     margin: 0 auto;
     padding-bottom: 16px;
   }
   .features__grid-topic-title {
     font-size: 20px;
     line-height: 22px;
-    /* text-align: center; */
   }
   .features__grid-topic-text {
     font-size: 16px;

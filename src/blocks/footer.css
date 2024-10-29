@@ -61,18 +61,3 @@
     margin: 0 auto;
   }
 }
-
-/* @media screen and (max-width: 375px) {
-  .footer__content {
-    flex-direction: column;
-  }
-  .footer__id {
-    flex-direction: column;
-  }
-  .footer__copyrights {
-    margin: 24px auto;
-  }
-  .footer__navlinks {
-    margin: 0 auto;
-  }
-} */

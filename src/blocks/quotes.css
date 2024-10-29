@@ -102,7 +102,7 @@
 .quotes__cardbox_focus {
   height: 490px;
 }
-/*-------------------------------------*/
+
 .quotes__cardtext {
   margin: 0 auto;
   color: #0f172a;
@@ -199,12 +199,6 @@
   .quotes__buttons {
     margin-left: 40px;
   }
-  /* .quotes__cardbox {
-    height: 400px;
-  }
-  .quotes__cardbox_focus {
-    height: 390px;
-  } */
 }
 @media screen and (max-width: 720px) {
   .quotes__header {
