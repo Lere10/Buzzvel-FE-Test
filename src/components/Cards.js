@@ -16,10 +16,6 @@ export default class Card {
     return cardTemplate;
   }
 
-  getIndex() {
-    return this._index;
-  }
-
   generateCard(index) {
     this._element = this._getTemplate();
 
