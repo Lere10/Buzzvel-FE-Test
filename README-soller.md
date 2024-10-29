@@ -6,8 +6,7 @@
     Buzzvel 2024 Dev Team Test
 </h3>
 
-<img alt="Last Commit" src="https://img.shields.io/badge/last%20commit-October%2029th%202024-blue
-  ">
+<img alt="Last Commit" src="https://img.shields.io/badge/Last%20commit-October%2029th%202024-purple">
 
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 
@@ -25,8 +24,7 @@
  <a href="#about">About</a> •
  <a href="#layout">Layout</a> • 
  <a href="#how-it-works">How it works</a> • 
- <a href="#tech-stack">Tech Stack</a> • 
- <a href="#contributors">Contributors</a> • 
+ <a href="#tech-stack">Tech Stack</a> •
  <a href="#author">Author</a> • 
  <a href="#user-content-license">License</a>
 
@@ -105,7 +103,7 @@ The following tools were used in the construction of the project:
 ## Author
 
 <a href="#author">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/164878438?v=4" width="100px;" alt="Lucas Iere"/>
+ <img style="border-radius: 50px;" src="https://avatars.githubusercontent.com/u/164878438?v=4" width="100px;" alt="Lucas Iere"/>
  <br />
  <sub><b>Lucas Iere</b></sub></a>
  <br />
