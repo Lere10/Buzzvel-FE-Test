@@ -1,5 +1,6 @@
 import "./main.css";
 import Card from "./components/Cards.js";
+import Scroll from "./components/QuotesScroll.js";
 import janeThumb from "./images/cardthumb_jane.png";
 import ralphThumb from "./images/cardthumb_ralph.png";
 import courtneyThumb from "./images/cardthumb_courtney.png";
@@ -7,6 +8,13 @@ import cameronThumb from "./images/cardthumb_cameron.png";
 import "./components/ScrollReveal.js";
 
 const cardSection = document.querySelector(".quotes__cards");
+const buttons = {
+  right: document.querySelector(".quotes__arrowbutton-right"),
+  left: document.querySelector(".quotes__arrowbutton-left"),
+};
+
+const scroll = new Scroll(".quotes__cards", buttons);
+const teste = document.querySelector(".quotes__cardbox:nth-of-type(0)");
 
 const quotes = [
   {
@@ -41,8 +49,45 @@ const quotes = [
   },
 ];
 
-quotes.forEach((quote) => {
-  const cardQuote = new Card(quote, "#template");
-  const CardElement = cardQuote.generateCard();
+let cardNum = 0;
+
+quotes.forEach((quote, index) => {
+  const cardQuote = new Card(quote, "#template", index);
+  const CardElement = cardQuote.generateCard(cardNum);
   cardSection.append(CardElement);
+});
+
+buttons.right.addEventListener("click", () => {
+  cardSection
+    .querySelector(`#quote_${cardNum}`)
+    .classList.remove("quotes__cardbox_focus");
+  if (cardNum == quotes.length - 1) {
+    cardNum = 0;
+  } else {
+    cardNum += 1;
+  }
+  console.log(cardNum);
+  const card = cardSection.querySelector(`#quote_${cardNum}`);
+
+  card.classList.add("quotes__cardbox_focus");
+  console.log("oi", card.clientWidth);
+
+  cardSection.style.translate = `${-388 * cardNum}px`;
+});
+
+// -----
+buttons.left.addEventListener("click", () => {
+  cardSection
+    .querySelector(`#quote_${cardNum}`)
+    .classList.remove("quotes__cardbox_focus");
+  if (cardNum == 0) {
+    cardNum = quotes.length - 1;
+  } else {
+    cardNum -= 1;
+  }
+
+  console.log(cardNum);
+  const card = cardSection.querySelector(`#quote_${cardNum}`);
+  card.classList.add("quotes__cardbox_focus");
+  cardSection.style.translate = `${-388 * cardNum}px`;
 });

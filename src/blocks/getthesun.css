@@ -1,4 +1,5 @@
 .getthesun {
+  overflow-y: hidden;
   background-color: #7e22ce;
   position: relative;
   z-index: 1;
