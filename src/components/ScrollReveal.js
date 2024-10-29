@@ -58,6 +58,12 @@ rev.reveal(".pickthesun__main-image", {
   origin: "bottom",
   delay: 150,
 });
+rev.reveal(".pickthesun__main-image-mobile", {
+  duration: 3000,
+  distance: "50px",
+  origin: "bottom",
+  delay: 150,
+});
 
 //SERVICES
 

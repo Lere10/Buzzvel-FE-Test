@@ -39,9 +39,17 @@
   visibility: hidden;
   align-self: center;
   max-width: 79.16%;
-  /* width: 79%; */
   margin: 80px auto 0px;
   padding: 0px;
+}
+.pickthesun__main-image-mobile {
+  visibility: hidden;
+  margin: 64px auto 48px;
+  display: none;
+  align-self: center;
+  padding: 0px;
+  filter: drop-shadow(0px 20px 25px rgba(0, 0, 0, 0.1))
+    drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.07));
 }
 .pickthesun__purple-ellipse {
   position: absolute;
@@ -94,12 +102,21 @@
     font-size: 16px;
     line-height: 22px;
   }
+  .pickthesun__main-image-mobile {
+    display: flex;
+  }
   .pickthesun__main-image {
-    margin-top: 64px;
-    max-width: 355px;
+    display: none;
+    /* margin-top: 64px;
+    max-width: 355px; */
   }
   .pickthesun__purple-ellipse {
     top: 240px;
     right: -70px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .pickthesun__main-image-mobile {
+    max-width: 345px;
   }
 }
