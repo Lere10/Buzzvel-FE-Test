@@ -1,6 +1,5 @@
 import "./main.css";
 import Card from "./components/Cards.js";
-import Scroll from "./components/QuotesScroll.js";
 import janeThumb from "./images/cardthumb_jane.png";
 import ralphThumb from "./images/cardthumb_ralph.png";
 import courtneyThumb from "./images/cardthumb_courtney.png";
@@ -12,9 +11,6 @@ const buttons = {
   right: document.querySelector(".quotes__arrowbutton-right"),
   left: document.querySelector(".quotes__arrowbutton-left"),
 };
-
-const scroll = new Scroll(".quotes__cards", buttons);
-const teste = document.querySelector(".quotes__cardbox:nth-of-type(0)");
 
 const quotes = [
   {
@@ -66,13 +62,14 @@ buttons.right.addEventListener("click", () => {
   } else {
     cardNum += 1;
   }
-  console.log(cardNum);
   const card = cardSection.querySelector(`#quote_${cardNum}`);
 
   card.classList.add("quotes__cardbox_focus");
-  console.log("oi", card.clientWidth);
-
-  cardSection.style.translate = `${-388 * cardNum}px`;
+  if (window.innerWidth <= 460) {
+    cardSection.style.translate = `${-363 * cardNum - 5 * cardNum}px`;
+  } else {
+    cardSection.style.translate = `${-388 * cardNum}px`;
+  }
 });
 
 // -----
@@ -85,9 +82,12 @@ buttons.left.addEventListener("click", () => {
   } else {
     cardNum -= 1;
   }
-
-  console.log(cardNum);
   const card = cardSection.querySelector(`#quote_${cardNum}`);
+
   card.classList.add("quotes__cardbox_focus");
-  cardSection.style.translate = `${-388 * cardNum}px`;
+  if (window.innerWidth <= 460) {
+    cardSection.style.translate = `${-363 * cardNum - 5 * cardNum}px`;
+  } else {
+    cardSection.style.translate = `${-388 * cardNum}px`;
+  }
 });

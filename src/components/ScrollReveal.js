@@ -25,7 +25,7 @@ rev.reveal(".header__quote-content", {
   duration: 1500,
   distance: "90px",
   origin: "left",
-  delay: 550,
+  delay: 500,
 });
 rev.reveal(".header__backgroundImage", {
   duration: 1500,
@@ -175,13 +175,13 @@ rev.reveal(".quotes__cards", {
   duration: 2000,
   distance: "50px",
   origin: "bottom",
-  delay: 1000,
+  delay: 500,
 });
 rev.reveal(".quotes__buttons", {
   duration: 3000,
   distance: "50px",
   origin: "bottom",
-  delay: 1000,
+  delay: 500,
 });
 
 //GETTHESUN
@@ -201,13 +201,13 @@ rev.reveal(".getthesun__button-info", {
   duration: 2000,
   distance: "50px",
   origin: "bottom",
-  delay: 750,
+  delay: 500,
 });
 rev.reveal(".getthesun__macimg", {
   duration: 2000,
   distance: "50px",
   origin: "bottom",
-  delay: 1000,
+  delay: 500,
 });
 
 export default rev;
