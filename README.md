@@ -13,7 +13,6 @@
   <a href="https://github.com/Lere10">
     <img alt="made by Lucas Iere" src="https://img.shields.io/badge/Made%20by-Lucas%20Iere-white">
   </a>
-</p>
 
 <h4 align="center"> 
 	 Status: Finished
