@@ -6,13 +6,12 @@
     Buzzvel 2024 Dev Team Test
 </h3>
 
-<img alt="Last Commit" src="https://img.shields.io/badge/Last%20commit-October%2029th%202024-purple">
+<img alt="Last Commit" src="https://img.shields.io/badge/last%20commit-October%2029th%202024-blue">
 
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 
   <a href="https://github.com/Lere10">
-    <img alt="made by Lucas Iere" src="https://img.shields.io/badge/Made%20by-Lucas%20Iere-white
-    ">
+    <img alt="made by Lucas Iere" src="https://img.shields.io/badge/Made%20by-Lucas%20Iere-white">
   </a>
 
 <h4 align="center"> 
